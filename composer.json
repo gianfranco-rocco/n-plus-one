@@ -14,6 +14,7 @@
     "guzzlehttp/guzzle": "^7.2",
     "laravel/framework": "^11.31",
     "laravel/sanctum": "^4.0",
+    "laravel/telescope": "^5.4",
     "laravel/tinker": "^2.9",
     "sentry/sentry-laravel": "^4.4",
     "spatie/laravel-query-builder": "^6.0"
@@ -81,7 +82,9 @@
   },
   "extra": {
     "laravel": {
-      "dont-discover": []
+      "dont-discover": [
+        "laravel/telescope"
+      ]
     }
   },
   "config": {
